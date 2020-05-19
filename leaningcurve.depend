@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1589890309 source:c:\users\anonymous\downloads\code\c++\leaningcurve\leaningcurve\main.cpp
+	<iostream>
+	<cmath>
+
