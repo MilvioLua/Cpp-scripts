@@ -3,26 +3,30 @@
 
 using namespace std;
 
+double cube (double num){
+
+}
+
+
+int gerMAx(int num1, int num2, int num3) {
+    int result;
+
+    if (num1 >= num2 && num1 >= num3) {
+        result = num1;
+    } else if ( num2 >= num1 && num2 >= num3){
+        result = num2;
+    } else {
+        result = num3;
+    }
+
+    return result;
+}
+
 int main()
 {
-
-    string color, pluralNoum, celebrity;
-
-    cout << "Enter a color ";
-    getline(cin, color);
-
-    cout << "Enter a Ploural Noum ";
-    getline(cin, pluralNoum);
-
-    cout << "Enter a celebrity ";
-    getline(cin, celebrity);
-
-    cout << "Roses are " << color  << endl;
-    cout << pluralNoum <<" areblue" << endl;
-    cout << "I love" << celebrity << endl;
-
-
+    cout << gerMAx(40, 5, 8);
 
 
     return 0;
 }
+
