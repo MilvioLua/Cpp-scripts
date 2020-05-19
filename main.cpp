@@ -28,7 +28,7 @@ int gerMAx(int num1, int num2, int num3) {
 int main()
 {
     int num1, num2;
-    char op;
+    string op;
 
     cout << " enter first number: ";
     cin >> num1;
@@ -37,18 +37,18 @@ int main()
     cin >> op;
 
     cout << " enter second number  number: ";
-    cin >> op;
+    cin >> num2;
 
     int result;
 
-    if (op == '+'){
-        cout << num1 + num2 ;
-    } else if (op =='-'){
-        cout << num1 - num2;
-    } else if (op =='*'){
-        cout << num1 * num2;
-    } else if (op =='/'){
-        cout << num1 / num2;
+    if (op == "+"){
+        result = num1 + num2 ;
+    } else if (op == "-"){
+        result = num1 - num2;
+    } else if (op == "*"){
+        result = num1 * num2;
+    } else if (op == "/ "){
+        result = num1 / num2;
     } else {
         cout << "invalid operator";
     }
