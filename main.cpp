@@ -6,10 +6,20 @@ using namespace std;
 int main()
 {
 
+    string color, pluralNoum, celebrity;
 
-    cout << "Roses are Red" << endl;
-    cout << "violets areblue" << endl;
-    cout << "I love you " << endl;
+    cout << "Enter a color ";
+    getline(cin, color);
+
+    cout << "Enter a Ploural Noum ";
+    getline(cin, pluralNoum);
+
+    cout << "Enter a celebrity ";
+    getline(cin, celebrity);
+
+    cout << "Roses are " << color  << endl;
+    cout << pluralNoum <<" areblue" << endl;
+    cout << "I love" << celebrity << endl;
 
 
 
