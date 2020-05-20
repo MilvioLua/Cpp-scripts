@@ -6,18 +6,21 @@ auto secword = 1;
 
 string hide(){
     string word;
-    cout << "encrypt word" <<endl;
+    cout << "encrypt your word";
     cin>> word;
     word[0] = 'x';
     word[2] = 'k';
-    cout << word;
+    cout << word << endl;
     return word;
 };
 
 string givenWord = hide();
 
 string uhide(){
-    if (secword ==1){
+    int givenuncryptword;
+    cout << "uncrypt your word" << endl;
+    cin >> givenuncryptword;
+    if (secword == givenuncryptword){
             cout << givenWord << endl;
     }
     else {
