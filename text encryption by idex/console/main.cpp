@@ -4,18 +4,19 @@ using namespace std;
 
 auto secword = 1;
 
+// encrypt fucntion
 string hide(){
     string word;
     cout << "encrypt your word";
     cin>> word;
-    word[0] = 'x';
-    word[2] = 'k';
-    cout << word << endl;
+
+    cout << &word << endl;
     return word;
 };
 
 string givenWord = hide();
 
+// uncript function
 string uhide(){
     int givenuncryptword;
     cout << "uncrypt your word" << endl;
