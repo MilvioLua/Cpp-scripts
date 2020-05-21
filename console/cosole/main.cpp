@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -48,8 +48,7 @@ class Italianchef : public Chef {
 int main()
 {
 
-    Chef chef;
-    chef.makechicken();
+
 
     return 0;
 }
