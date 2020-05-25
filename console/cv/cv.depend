@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1590273590 source:c:\users\anonymous\downloads\code\c++\cpp-scripts\console\cv\src\myclass.cpp
+	"myclass.h"
+	<iostream>
+
+1590271386 c:\users\anonymous\downloads\code\c++\cpp-scripts\console\cv\include\myclass.h
+
