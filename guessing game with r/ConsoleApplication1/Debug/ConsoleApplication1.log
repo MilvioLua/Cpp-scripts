@@ -1,6 +1,6 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(92,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(109): warning C4700: uninitialized local variable 'choice' used
+C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(44,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(96,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\ConsoleApplication1\ConsoleApplication1.cpp(113): warning C4700: uninitialized local variable 'choice' used
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   ConsoleApplication1.vcxproj -> C:\Users\ANONYMOUS\Downloads\Code\C++\Cpp-scripts\guessing game with r\Debug\ConsoleApplication1.exe

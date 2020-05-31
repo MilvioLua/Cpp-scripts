@@ -9,7 +9,34 @@
 using namespace System;
 using namespace std;
 
+void save_score(int count) {
 
+	ifstream input("Best_score.txt");
+	int bestScore;
+	input >> bestScore;
+
+	if (!input.is_open()) {
+		cout << " unable to read" << endl;
+		return;
+	}
+
+	ofstream output("Best_score.txt");
+
+	if (!output.is_open()) {
+		cout << " unable to read" << endl;
+		return;
+	}
+
+	if (count > bestScore)
+	{
+		output << count;
+	}
+	else
+	{
+		output << bestScore;
+	}
+
+}
 
 void printvector(vector<int> vector)
 {
@@ -54,30 +81,7 @@ void playGame() {
 		
 	}
 
-	ifstream input("Best_score.txt");
-	int bestScore;
-	input >> bestScore;
-
-	if (!input.is_open()) {
-		cout << " unable to read" << endl;
-		return;
-	}
-
-	ofstream output("Best_score.txt");
-
-	if (!output.is_open()) {
-		cout << " unable to read" << endl;
-		return;
-	}
-
-	if (count > bestScore)
-	{
-		output << count;
-	}
-	else
-	{
-		output << bestScore;
-	}
+	save_score(count);
 
 	printvector(guesses);
 }
