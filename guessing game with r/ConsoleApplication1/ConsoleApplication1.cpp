@@ -4,6 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <vector>
+#include <fstream>
 
 using namespace System;
 using namespace std;
@@ -24,7 +25,7 @@ void printvector(vector<int> vector)
 void playGame() {
 
 	vector <int> guesses;
-
+	int count = 0;
 
 	int random = rand() & 251;
 	cout << random;
@@ -33,6 +34,7 @@ void playGame() {
 	{
 		int guess;
 		cin >> guess;
+		count++;
 		guesses.push_back(guess);
 		
 
@@ -50,6 +52,31 @@ void playGame() {
 			cout << "to high\n";
 		}
 		
+	}
+
+	ifstream input("Best_score.txt");
+	int bestScore;
+	input >> bestScore;
+
+	if (!input.is_open()) {
+		cout << " unable to read" << endl;
+		return;
+	}
+
+	ofstream output("Best_score.txt");
+
+	if (!output.is_open()) {
+		cout << " unable to read" << endl;
+		return;
+	}
+
+	if (count > bestScore)
+	{
+		output << count;
+	}
+	else
+	{
+		output << bestScore;
 	}
 
 	printvector(guesses);
