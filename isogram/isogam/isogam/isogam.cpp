@@ -1,14 +1,13 @@
 
 #include <iostream>
 #include <vector>
-#include "math.h"
 #include <algorithm>
 
 using namespace std;
 
-
 // Function to check 
-// if a given string is isogram or not 
+// if a given string is isogram or not
+
 string is_isogram(string str)
 {
 	int len = str.length();
@@ -21,27 +20,31 @@ string is_isogram(string str)
 
 	for (int i = 0; i < len; i++) {
 		if (str[i] == str[i + 1])
-			return "False";
+			return "Not a isogram";
 	}
-	return "True";
+	return "It is a isogram";
 }
 
 // driver program 
 int main()
 {
-	string str1 = "Machine";
-	cout << is_isogram(str1) << endl;
+	string word_one;
+	string word_two;
+	string word_three;
+	string word_four;
+	cout << " check first word: ";
+	cin >> word_one;
+	cout << " check second word: ";
+	cin >> word_two;
+	cout << " check third word: ";
+	cin >> word_three;
+	cout << " check four word: ";
+	cin >> word_four;
 
-	string str2 = "isogram";
-	cout << is_isogram(str2) << endl;
-
-	string str3 = "GeeksforGeeks";
-	cout << is_isogram(str3) << endl;
-
-	string str4 = "Alphabet";
-	cout << is_isogram(str4) << endl;
+	cout << word_one << " " << is_isogram(word_one) << endl;
+	cout << word_two << " "  << is_isogram(word_two) << endl;
+	cout << word_three << " "  << is_isogram(word_three) << endl;
+	cout << word_four << " " << is_isogram(word_four) << endl;
 
 	return 0;
 }
-
-// Contributed by nuclode 
