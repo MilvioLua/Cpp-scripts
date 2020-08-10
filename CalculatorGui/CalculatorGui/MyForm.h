@@ -115,9 +115,9 @@ namespace CalculatorGui {
 			this->btequals = (gcnew System::Windows::Forms::Button());
 			this->devidbt = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
+			//
 			// btspace
-			// 
+			//
 			this->btspace->Font = (gcnew System::Drawing::Font(L"Wingdings", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(2)));
 			this->btspace->Location = System::Drawing::Point(13, 65);
@@ -127,9 +127,9 @@ namespace CalculatorGui {
 			this->btspace->Text = L"";
 			this->btspace->UseVisualStyleBackColor = true;
 			this->btspace->MouseClick += gcnew System::Windows::Forms::MouseEventHandler(this, &MyForm::btdelete);
-			// 
+			//
 			// txtDisplay
-			// 
+			//
 			this->txtDisplay->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->txtDisplay->Location = System::Drawing::Point(11, 12);
@@ -140,9 +140,9 @@ namespace CalculatorGui {
 			this->txtDisplay->Text = L"0";
 			this->txtDisplay->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
 			this->txtDisplay->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
-			// 
+			//
 			// btclear
-			// 
+			//
 			this->btclear->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btclear->Location = System::Drawing::Point(79, 65);
@@ -152,9 +152,9 @@ namespace CalculatorGui {
 			this->btclear->Text = L"C";
 			this->btclear->UseVisualStyleBackColor = true;
 			this->btclear->Click += gcnew System::EventHandler(this, &MyForm::clear);
-			// 
+			//
 			// clearall
-			// 
+			//
 			this->clearall->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->clearall->Location = System::Drawing::Point(145, 65);
@@ -164,9 +164,9 @@ namespace CalculatorGui {
 			this->clearall->Text = L"CE";
 			this->clearall->UseVisualStyleBackColor = true;
 			this->clearall->Click += gcnew System::EventHandler(this, &MyForm::secondclearbtn);
-			// 
+			//
 			// btplusminus
-			// 
+			//
 			this->btplusminus->Font = (gcnew System::Drawing::Font(L"Abril Fatface", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btplusminus->Location = System::Drawing::Point(211, 65);
@@ -176,9 +176,9 @@ namespace CalculatorGui {
 			this->btplusminus->Text = L"±";
 			this->btplusminus->UseVisualStyleBackColor = true;
 			this->btplusminus->Click += gcnew System::EventHandler(this, &MyForm::plusminus);
-			// 
+			//
 			// bt7
-			// 
+			//
 			this->bt7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt7->Location = System::Drawing::Point(14, 131);
@@ -188,9 +188,9 @@ namespace CalculatorGui {
 			this->bt7->Text = L"7";
 			this->bt7->UseVisualStyleBackColor = true;
 			this->bt7->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt8
-			// 
+			//
 			this->bt8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt8->Location = System::Drawing::Point(80, 131);
@@ -200,9 +200,9 @@ namespace CalculatorGui {
 			this->bt8->Text = L"8";
 			this->bt8->UseVisualStyleBackColor = true;
 			this->bt8->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt9
-			// 
+			//
 			this->bt9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt9->Location = System::Drawing::Point(146, 131);
@@ -212,9 +212,9 @@ namespace CalculatorGui {
 			this->bt9->Text = L"9";
 			this->bt9->UseVisualStyleBackColor = true;
 			this->bt9->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// plussbt
-			// 
+			//
 			this->plussbt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->plussbt->Location = System::Drawing::Point(212, 131);
@@ -224,9 +224,9 @@ namespace CalculatorGui {
 			this->plussbt->Text = L"+";
 			this->plussbt->UseVisualStyleBackColor = true;
 			this->plussbt->Click += gcnew System::EventHandler(this, &MyForm::EnterOperators);
-			// 
+			//
 			// bt6
-			// 
+			//
 			this->bt6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt6->Location = System::Drawing::Point(14, 197);
@@ -236,9 +236,9 @@ namespace CalculatorGui {
 			this->bt6->Text = L"6";
 			this->bt6->UseVisualStyleBackColor = true;
 			this->bt6->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt5
-			// 
+			//
 			this->bt5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt5->Location = System::Drawing::Point(80, 197);
@@ -248,9 +248,9 @@ namespace CalculatorGui {
 			this->bt5->Text = L"5";
 			this->bt5->UseVisualStyleBackColor = true;
 			this->bt5->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt4
-			// 
+			//
 			this->bt4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt4->Location = System::Drawing::Point(146, 197);
@@ -260,9 +260,9 @@ namespace CalculatorGui {
 			this->bt4->Text = L"4";
 			this->bt4->UseVisualStyleBackColor = true;
 			this->bt4->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// lessbt
-			// 
+			//
 			this->lessbt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->lessbt->Location = System::Drawing::Point(212, 197);
@@ -272,9 +272,9 @@ namespace CalculatorGui {
 			this->lessbt->Text = L"-";
 			this->lessbt->UseVisualStyleBackColor = true;
 			this->lessbt->Click += gcnew System::EventHandler(this, &MyForm::EnterOperators);
-			// 
+			//
 			// bt1
-			// 
+			//
 			this->bt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt1->Location = System::Drawing::Point(14, 263);
@@ -284,9 +284,9 @@ namespace CalculatorGui {
 			this->bt1->Text = L"1";
 			this->bt1->UseVisualStyleBackColor = true;
 			this->bt1->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt2
-			// 
+			//
 			this->bt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt2->Location = System::Drawing::Point(80, 263);
@@ -296,9 +296,9 @@ namespace CalculatorGui {
 			this->bt2->Text = L"2";
 			this->bt2->UseVisualStyleBackColor = true;
 			this->bt2->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// bt3
-			// 
+			//
 			this->bt3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt3->Location = System::Drawing::Point(146, 263);
@@ -308,9 +308,9 @@ namespace CalculatorGui {
 			this->bt3->Text = L"3";
 			this->bt3->UseVisualStyleBackColor = true;
 			this->bt3->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// multbt
-			// 
+			//
 			this->multbt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->multbt->Location = System::Drawing::Point(212, 263);
@@ -320,9 +320,9 @@ namespace CalculatorGui {
 			this->multbt->Text = L"*";
 			this->multbt->UseVisualStyleBackColor = true;
 			this->multbt->Click += gcnew System::EventHandler(this, &MyForm::EnterOperators);
-			// 
+			//
 			// bt0
-			// 
+			//
 			this->bt0->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt0->Location = System::Drawing::Point(13, 329);
@@ -332,9 +332,9 @@ namespace CalculatorGui {
 			this->bt0->Text = L"0";
 			this->bt0->UseVisualStyleBackColor = true;
 			this->bt0->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
-			// 
+			//
 			// btdot
-			// 
+			//
 			this->btdot->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btdot->Location = System::Drawing::Point(79, 329);
@@ -344,9 +344,9 @@ namespace CalculatorGui {
 			this->btdot->Text = L".";
 			this->btdot->UseVisualStyleBackColor = true;
 			this->btdot->Click += gcnew System::EventHandler(this, &MyForm::btnDecimal);
-			// 
+			//
 			// btequals
-			// 
+			//
 			this->btequals->BackColor = System::Drawing::Color::DarkOrchid;
 			this->btequals->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btequals->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -358,9 +358,9 @@ namespace CalculatorGui {
 			this->btequals->Text = L"=";
 			this->btequals->UseVisualStyleBackColor = false;
 			this->btequals->Click += gcnew System::EventHandler(this, &MyForm::btnEquals);
-			// 
+			//
 			// devidbt
-			// 
+			//
 			this->devidbt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->devidbt->Location = System::Drawing::Point(211, 329);
@@ -370,9 +370,9 @@ namespace CalculatorGui {
 			this->devidbt->Text = L"/";
 			this->devidbt->UseVisualStyleBackColor = true;
 			this->devidbt->Click += gcnew System::EventHandler(this, &MyForm::EnterOperators);
-			// 
+			//
 			// MyForm
-			// 
+			//
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(283, 405);
@@ -464,8 +464,6 @@ private: System::Void btnEquals(System::Object^ sender, System::EventArgs^ e) {
 		result = firstdigit / seconddigit;
 		txtDisplay->Text = System::Convert::ToString(result);
 	}
-
-
 }
 private: System::Void clear(System::Object^ sender, System::EventArgs^ e) {
 	txtDisplay->Text = "0";
